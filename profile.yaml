@@ -1,0 +1,46 @@
+version: 1
+github:
+  username: LeaningLearner
+identity:
+  name: 择梦舟
+  headline: SOFTWARE & KNOWLEDGE
+  tagline: Building public-data interfaces, formula services, and verified workflows for publishing study notes.
+theme:
+  preset: editorial
+  primary: "#00A7D1"
+  secondary: "#E84A8A"
+links:
+  - label: GitHub
+    url: https://github.com/LeaningLearner
+  - label: Website
+    url: https://zemengzhou.com/
+layers:
+  - name: PROFILE DATA
+    project: github-neofetch
+    description: Public GitHub data rendered as terminal-style profile cards.
+    tone: primary
+  - name: FORMULA SERVICE
+    project: latexbot
+    description: QQ bot events, LaTeX validation, and MathJax image rendering.
+    tone: secondary
+  - name: NOTE PUBLISHING
+    project: publish-exam-study-notes
+    description: Verified transcription and publishing workflow for Chinese exam notes.
+    tone: primary
+flagships:
+  - repo: github-neofetch
+    role: PROFILE INTERFACE
+    description: A terminal-style view of public GitHub profiles, repository stats, and avatars.
+    tone: primary
+  - repo: latexbot
+    role: FORMULA RENDERING
+    description: An official QQ Bot service for validated LaTeX and MathJax image replies.
+    tone: secondary
+  - repo: publish-exam-study-notes
+    role: KNOWLEDGE WORKFLOW
+    description: A Codex skill for faithful, verified, safe publication of Chinese exam notes.
+    tone: primary
+module_groups: []
+settings:
+  show_stars: true
+  show_badges: true
