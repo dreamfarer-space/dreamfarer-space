@@ -76,85 +76,9 @@ external_contributions:
         additions: 1739
         deletions: 178
         changed_files: 17
-contribution_activity:
-  start_date: "2025-08-04"
-  end_date: "2026-08-03"
-  total: 1282
-  active_days: 70
-  peak_daily: 49
-  commits_percent: 99
-  pull_requests_percent: 1
-  days:
-    - { date: "2026-01-30", count: 11, level: 2 }
-    - { date: "2026-05-19", count: 5, level: 1 }
-    - { date: "2026-05-22", count: 18, level: 2 }
-    - { date: "2026-05-23", count: 31, level: 3 }
-    - { date: "2026-05-24", count: 37, level: 4 }
-    - { date: "2026-05-25", count: 17, level: 2 }
-    - { date: "2026-05-26", count: 8, level: 1 }
-    - { date: "2026-05-27", count: 2, level: 1 }
-    - { date: "2026-06-01", count: 11, level: 2 }
-    - { date: "2026-06-02", count: 27, level: 3 }
-    - { date: "2026-06-03", count: 17, level: 2 }
-    - { date: "2026-06-04", count: 22, level: 3 }
-    - { date: "2026-06-05", count: 12, level: 2 }
-    - { date: "2026-06-06", count: 23, level: 3 }
-    - { date: "2026-06-07", count: 22, level: 3 }
-    - { date: "2026-06-08", count: 13, level: 2 }
-    - { date: "2026-06-09", count: 1, level: 1 }
-    - { date: "2026-06-10", count: 16, level: 2 }
-    - { date: "2026-06-11", count: 25, level: 3 }
-    - { date: "2026-06-12", count: 4, level: 1 }
-    - { date: "2026-06-14", count: 34, level: 4 }
-    - { date: "2026-06-15", count: 32, level: 4 }
-    - { date: "2026-06-16", count: 35, level: 4 }
-    - { date: "2026-06-17", count: 8, level: 1 }
-    - { date: "2026-06-18", count: 5, level: 1 }
-    - { date: "2026-06-19", count: 3, level: 1 }
-    - { date: "2026-06-21", count: 3, level: 1 }
-    - { date: "2026-06-22", count: 14, level: 2 }
-    - { date: "2026-06-23", count: 29, level: 3 }
-    - { date: "2026-06-24", count: 18, level: 2 }
-    - { date: "2026-06-25", count: 11, level: 2 }
-    - { date: "2026-06-26", count: 48, level: 4 }
-    - { date: "2026-06-27", count: 31, level: 3 }
-    - { date: "2026-06-28", count: 29, level: 3 }
-    - { date: "2026-06-29", count: 24, level: 3 }
-    - { date: "2026-06-30", count: 24, level: 3 }
-    - { date: "2026-07-01", count: 30, level: 3 }
-    - { date: "2026-07-02", count: 35, level: 4 }
-    - { date: "2026-07-03", count: 35, level: 4 }
-    - { date: "2026-07-04", count: 28, level: 3 }
-    - { date: "2026-07-05", count: 18, level: 2 }
-    - { date: "2026-07-06", count: 27, level: 3 }
-    - { date: "2026-07-07", count: 28, level: 3 }
-    - { date: "2026-07-08", count: 5, level: 1 }
-    - { date: "2026-07-09", count: 8, level: 1 }
-    - { date: "2026-07-10", count: 5, level: 1 }
-    - { date: "2026-07-11", count: 5, level: 1 }
-    - { date: "2026-07-12", count: 5, level: 1 }
-    - { date: "2026-07-13", count: 5, level: 1 }
-    - { date: "2026-07-14", count: 5, level: 1 }
-    - { date: "2026-07-15", count: 5, level: 1 }
-    - { date: "2026-07-16", count: 49, level: 4 }
-    - { date: "2026-07-17", count: 38, level: 4 }
-    - { date: "2026-07-18", count: 7, level: 1 }
-    - { date: "2026-07-19", count: 33, level: 4 }
-    - { date: "2026-07-20", count: 22, level: 3 }
-    - { date: "2026-07-21", count: 14, level: 2 }
-    - { date: "2026-07-22", count: 18, level: 2 }
-    - { date: "2026-07-23", count: 14, level: 2 }
-    - { date: "2026-07-24", count: 13, level: 2 }
-    - { date: "2026-07-25", count: 42, level: 4 }
-    - { date: "2026-07-26", count: 13, level: 2 }
-    - { date: "2026-07-27", count: 10, level: 1 }
-    - { date: "2026-07-28", count: 18, level: 2 }
-    - { date: "2026-07-29", count: 23, level: 3 }
-    - { date: "2026-07-30", count: 11, level: 2 }
-    - { date: "2026-07-31", count: 11, level: 2 }
-    - { date: "2026-08-01", count: 5, level: 1 }
-    - { date: "2026-08-02", count: 23, level: 3 }
-    - { date: "2026-08-03", count: 4, level: 1 }
+contribution_graph:
+  provider: github-readme-activity-graph
+  days: 31
 module_groups: []
 settings:
   show_stars: true

@@ -18,7 +18,7 @@ Building public-data interfaces, formula services, and verified workflows for pu
 </tr>
 </table>
 
-## Selected work
+## Selected Work / 精选项目
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
@@ -39,13 +39,17 @@ DSCodex 由 fish2lab 创建；我以 Contributor 身份提交并合并了 Window
 
 ## Contributions / 贡献轨迹
 
+<a href="https://github.com/LeaningLearner">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/contributions-light.svg">
-  <img alt="择梦舟 contribution trajectory, 1282 contributions across 70 active days" src="assets/contributions-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=LeaningLearner&amp;bg_color=191A16&amp;color=F4EEDC&amp;title_color=F4EEDC&amp;line=00A7D1&amp;point=E84A8A&amp;area=true&amp;area_color=00A7D1&amp;hide_border=true&amp;hide_title=true&amp;radius=0&amp;days=31">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=LeaningLearner&amp;bg_color=F4EDDF&amp;color=171915&amp;title_color=171915&amp;line=00A7D1&amp;point=E84A8A&amp;area=true&amp;area_color=00A7D1&amp;hide_border=true&amp;hide_title=true&amp;radius=0&amp;days=31">
+  <img alt="择梦舟 live GitHub activity for the last 31 days" src="https://github-readme-activity-graph.vercel.app/graph?username=LeaningLearner&amp;bg_color=F4EDDF&amp;color=171915&amp;title_color=171915&amp;line=00A7D1&amp;point=E84A8A&amp;area=true&amp;area_color=00A7D1&amp;hide_border=true&amp;hide_title=true&amp;radius=0&amp;days=31" width="100%">
 </picture>
+</a>
 
-## Working index
+<p align="center"><sub>Live 31-day GitHub activity / 动态展示最近 31 天 GitHub 活动</sub></p>
+
+## Working Index / 工作索引
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/closed-loop-dark.svg">
@@ -53,7 +57,7 @@ DSCodex 由 fish2lab 创建；我以 Contributor 身份提交并合并了 Window
   <img alt="择梦舟 project index" src="assets/closed-loop-light.svg" width="100%">
 </picture>
 
-## Project archive
+## Project Archive / 项目归档
 
 No supporting projects selected.
 
