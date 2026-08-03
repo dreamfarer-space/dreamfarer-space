@@ -4,7 +4,7 @@ github:
 identity:
   name: 择梦舟
   headline: SOFTWARE & KNOWLEDGE
-  tagline: Building public-data interfaces, formula services, and verified workflows for publishing study notes.
+  tagline: Building public-data interfaces, formula services, and verified workflows for publishing study notes. Open-source contributor to the fish2lab/DSCodex project.
 theme:
   preset: editorial
   primary: "#00A7D1"
@@ -14,6 +14,10 @@ links:
     url: https://github.com/LeaningLearner
   - label: Website
     url: https://zemengzhou.com/
+  - label: fish2lab
+    url: https://github.com/fish2lab
+  - label: DSCodex contributor
+    url: https://github.com/fish2lab/DSCodex
 layers:
   - name: PROFILE DATA
     project: github-neofetch
