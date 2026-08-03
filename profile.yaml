@@ -12,12 +12,23 @@ theme:
 links:
   - label: GitHub
     url: https://github.com/LeaningLearner
-  - label: Website
+  - label: 知乎
+    url: https://www.zhihu.com/people/ze-meng-zhou-29
+  - label: Blog
     url: https://zemengzhou.com/
-  - label: fish2lab
-    url: https://github.com/fish2lab
-  - label: DSCodex contributor
-    url: https://github.com/fish2lab/DSCodex
+content_entries:
+  - label: 知乎 / Zhihu
+    description: 在理性、表达与审美之间往返：一个“披着文科生外衣、想当艺术生的理科生”，记录学习、技术与生活观察。
+    url: https://www.zhihu.com/people/ze-meng-zhou-29
+    cta: 前往知乎
+  - label: GitHub
+    description: 代码与工具的构建现场：公开数据界面、公式机器人、知识发布流程，以及对 DSCodex 的安全与 Windows 兼容性贡献。
+    url: https://github.com/LeaningLearner
+    cta: 查看代码
+  - label: 博客 / Blog
+    description: 工程、控制理论、机器视觉与数学的长期档案：把项目、研究笔记与可复用知识组织成可检索、可回访的系统。
+    url: https://zemengzhou.com/
+    cta: 阅读博客
 layers:
   - name: PROFILE DATA
     project: github-neofetch
@@ -44,6 +55,106 @@ flagships:
     role: KNOWLEDGE WORKFLOW
     description: A Codex skill for faithful, verified, safe publication of Chinese exam notes.
     tone: primary
+external_contributions:
+  - owner: fish2lab
+    repo: DSCodex
+    url: https://github.com/fish2lab/DSCodex
+    role: Contributor
+    description: DSCodex 由 fish2lab 创建；我以 Contributor 身份提交并合并了 Windows 非 ASCII 用户目录兼容修复，以及路由生命周期、凭据与代理处理的安全加固。
+    pull_requests:
+      - number: 1
+        title: "fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes"
+        url: https://github.com/fish2lab/DSCodex/pull/1
+        merged_at: "2026-08-02T09:27:15Z"
+        additions: 35
+        deletions: 2
+        changed_files: 2
+      - number: 5
+        title: "security: harden router lifecycle, credentials, and proxy handling"
+        url: https://github.com/fish2lab/DSCodex/pull/5
+        merged_at: "2026-08-03T07:46:41Z"
+        additions: 1739
+        deletions: 178
+        changed_files: 17
+contribution_activity:
+  start_date: "2025-08-04"
+  end_date: "2026-08-03"
+  total: 1282
+  active_days: 70
+  peak_daily: 49
+  commits_percent: 99
+  pull_requests_percent: 1
+  days:
+    - { date: "2026-01-30", count: 11, level: 2 }
+    - { date: "2026-05-19", count: 5, level: 1 }
+    - { date: "2026-05-22", count: 18, level: 2 }
+    - { date: "2026-05-23", count: 31, level: 3 }
+    - { date: "2026-05-24", count: 37, level: 4 }
+    - { date: "2026-05-25", count: 17, level: 2 }
+    - { date: "2026-05-26", count: 8, level: 1 }
+    - { date: "2026-05-27", count: 2, level: 1 }
+    - { date: "2026-06-01", count: 11, level: 2 }
+    - { date: "2026-06-02", count: 27, level: 3 }
+    - { date: "2026-06-03", count: 17, level: 2 }
+    - { date: "2026-06-04", count: 22, level: 3 }
+    - { date: "2026-06-05", count: 12, level: 2 }
+    - { date: "2026-06-06", count: 23, level: 3 }
+    - { date: "2026-06-07", count: 22, level: 3 }
+    - { date: "2026-06-08", count: 13, level: 2 }
+    - { date: "2026-06-09", count: 1, level: 1 }
+    - { date: "2026-06-10", count: 16, level: 2 }
+    - { date: "2026-06-11", count: 25, level: 3 }
+    - { date: "2026-06-12", count: 4, level: 1 }
+    - { date: "2026-06-14", count: 34, level: 4 }
+    - { date: "2026-06-15", count: 32, level: 4 }
+    - { date: "2026-06-16", count: 35, level: 4 }
+    - { date: "2026-06-17", count: 8, level: 1 }
+    - { date: "2026-06-18", count: 5, level: 1 }
+    - { date: "2026-06-19", count: 3, level: 1 }
+    - { date: "2026-06-21", count: 3, level: 1 }
+    - { date: "2026-06-22", count: 14, level: 2 }
+    - { date: "2026-06-23", count: 29, level: 3 }
+    - { date: "2026-06-24", count: 18, level: 2 }
+    - { date: "2026-06-25", count: 11, level: 2 }
+    - { date: "2026-06-26", count: 48, level: 4 }
+    - { date: "2026-06-27", count: 31, level: 3 }
+    - { date: "2026-06-28", count: 29, level: 3 }
+    - { date: "2026-06-29", count: 24, level: 3 }
+    - { date: "2026-06-30", count: 24, level: 3 }
+    - { date: "2026-07-01", count: 30, level: 3 }
+    - { date: "2026-07-02", count: 35, level: 4 }
+    - { date: "2026-07-03", count: 35, level: 4 }
+    - { date: "2026-07-04", count: 28, level: 3 }
+    - { date: "2026-07-05", count: 18, level: 2 }
+    - { date: "2026-07-06", count: 27, level: 3 }
+    - { date: "2026-07-07", count: 28, level: 3 }
+    - { date: "2026-07-08", count: 5, level: 1 }
+    - { date: "2026-07-09", count: 8, level: 1 }
+    - { date: "2026-07-10", count: 5, level: 1 }
+    - { date: "2026-07-11", count: 5, level: 1 }
+    - { date: "2026-07-12", count: 5, level: 1 }
+    - { date: "2026-07-13", count: 5, level: 1 }
+    - { date: "2026-07-14", count: 5, level: 1 }
+    - { date: "2026-07-15", count: 5, level: 1 }
+    - { date: "2026-07-16", count: 49, level: 4 }
+    - { date: "2026-07-17", count: 38, level: 4 }
+    - { date: "2026-07-18", count: 7, level: 1 }
+    - { date: "2026-07-19", count: 33, level: 4 }
+    - { date: "2026-07-20", count: 22, level: 3 }
+    - { date: "2026-07-21", count: 14, level: 2 }
+    - { date: "2026-07-22", count: 18, level: 2 }
+    - { date: "2026-07-23", count: 14, level: 2 }
+    - { date: "2026-07-24", count: 13, level: 2 }
+    - { date: "2026-07-25", count: 42, level: 4 }
+    - { date: "2026-07-26", count: 13, level: 2 }
+    - { date: "2026-07-27", count: 10, level: 1 }
+    - { date: "2026-07-28", count: 18, level: 2 }
+    - { date: "2026-07-29", count: 23, level: 3 }
+    - { date: "2026-07-30", count: 11, level: 2 }
+    - { date: "2026-07-31", count: 11, level: 2 }
+    - { date: "2026-08-01", count: 5, level: 1 }
+    - { date: "2026-08-02", count: 23, level: 3 }
+    - { date: "2026-08-03", count: 4, level: 1 }
 module_groups: []
 settings:
   show_stars: true
