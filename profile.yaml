@@ -77,7 +77,7 @@ external_contributions:
         deletions: 178
         changed_files: 17
 contribution_graph:
-  provider: github-readme-activity-graph
+  provider: ghchart-and-activity-graph
   days: 31
 module_groups: []
 settings:
