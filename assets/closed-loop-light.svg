@@ -8,19 +8,35 @@
     @keyframes enter{from{opacity:.25;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}@keyframes scan{to{stroke-dashoffset:-120}}
     @media(prefers-reduced-motion:reduce){.enter,.scan{animation:none}}
   </style><rect width="1200" height="330" fill="#DCD5C7"/><rect x="13" y="13" width="1174" height="304" fill="#F4EDDF" stroke="#B9B1A2"/><rect x="13" y="13" width="1174" height="304" fill="url(#paper-grid)"/>
-      <rect x="13" y="13" width="156" height="304" fill="#1B1D19"/><text x="91" y="76" text-anchor="middle" class="mono" font-size="8" letter-spacing="3" fill="#F4EDDF">CONTENTS</text><text x="91" y="208" text-anchor="middle" class="grotesk" font-size="108" font-weight="900" fill="#F4EDDF">03</text><path d="M51 229H131" stroke="#F4EDDF"/><text x="91" y="258" text-anchor="middle" class="mono" font-size="8" letter-spacing="2" fill="#F4EDDF">ACTIVE LAYERS</text>
+      <rect x="13" y="13" width="156" height="304" fill="#1B1D19"/><text x="91" y="76" text-anchor="middle" class="mono" font-size="8" letter-spacing="3" fill="#F4EDDF">CONTENTS</text><text x="91" y="208" text-anchor="middle" class="grotesk" font-size="108" font-weight="900" fill="#F4EDDF">07</text><path d="M51 229H131" stroke="#F4EDDF"/><text x="91" y="258" text-anchor="middle" class="mono" font-size="8" letter-spacing="2" fill="#F4EDDF">ACTIVE LAYERS</text>
       <text x="205" y="42" class="display" font-size="18" font-style="italic" fill="#171915">Working index</text><text x="1150" y="42" text-anchor="end" class="mono" font-size="8" letter-spacing="2" fill="#6E6B61">SOFTWARE &amp; KNOWLEDGE / VOL. 01</text><path d="M205 55H1150" stroke="#B9B1A2"/><path d="M674 65V298" stroke="#B9B1A2"/><g class="enter" style="animation-delay:0ms">
-          <rect x="205" y="61" width="4" height="36" fill="#00A7D1"/><text x="221" y="75" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">01</text>
-          <text x="254" y="75" class="body" font-size="12" font-weight="800" fill="#171915">PROFILE DATA</text><text x="254" y="92" class="display" font-size="12" font-style="italic" fill="#6E6B61">github-neofetch</text>
+          <rect x="205" y="61" width="4" height="36" fill="#E84A8A"/><text x="221" y="75" class="mono" font-size="8" letter-spacing="1.5" fill="#E84A8A">01</text>
+          <text x="254" y="75" class="body" font-size="12" font-weight="800" fill="#171915">CODEX SWITCHER</text><text x="254" y="92" class="display" font-size="12" font-style="italic" fill="#6E6B61">codex-switcher</text>
           <path d="M221 101H649" stroke="#B9B1A2"/>
         </g><g class="enter" style="animation-delay:45ms">
-          <rect x="205" y="111" width="4" height="36" fill="#E84A8A"/><text x="221" y="125" class="mono" font-size="8" letter-spacing="1.5" fill="#E84A8A">02</text>
-          <text x="254" y="125" class="body" font-size="12" font-weight="800" fill="#171915">FORMULA SERVICE</text><text x="254" y="142" class="display" font-size="12" font-style="italic" fill="#6E6B61">latexbot</text>
+          <rect x="205" y="111" width="4" height="36" fill="#00A7D1"/><text x="221" y="125" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">02</text>
+          <text x="254" y="125" class="body" font-size="12" font-weight="800" fill="#171915">CODEX BOT</text><text x="254" y="142" class="display" font-size="12" font-style="italic" fill="#6E6B61">codexbot</text>
           <path d="M221 151H649" stroke="#B9B1A2"/>
         </g><g class="enter" style="animation-delay:90ms">
-          <rect x="205" y="161" width="4" height="36" fill="#00A7D1"/><text x="221" y="175" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">03</text>
-          <text x="254" y="175" class="body" font-size="12" font-weight="800" fill="#171915">NOTE PUBLISHING</text><text x="254" y="192" class="display" font-size="12" font-style="italic" fill="#6E6B61">publish-exam-study-notes</text>
+          <rect x="205" y="161" width="4" height="36" fill="#E84A8A"/><text x="221" y="175" class="mono" font-size="8" letter-spacing="1.5" fill="#E84A8A">03</text>
+          <text x="254" y="175" class="body" font-size="12" font-weight="800" fill="#171915">DEEPSEEK CODEX</text><text x="254" y="192" class="display" font-size="12" font-style="italic" fill="#6E6B61">DSCodex</text>
           <path d="M221 201H649" stroke="#B9B1A2"/>
+        </g><g class="enter" style="animation-delay:135ms">
+          <rect x="205" y="211" width="4" height="36" fill="#00A7D1"/><text x="221" y="225" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">04</text>
+          <text x="254" y="225" class="body" font-size="12" font-weight="800" fill="#171915">PROFILE DATA</text><text x="254" y="242" class="display" font-size="12" font-style="italic" fill="#6E6B61">github-neofetch</text>
+          <path d="M221 251H649" stroke="#B9B1A2"/>
+        </g><g class="enter" style="animation-delay:180ms">
+          <rect x="205" y="261" width="4" height="36" fill="#E84A8A"/><text x="221" y="275" class="mono" font-size="8" letter-spacing="1.5" fill="#E84A8A">05</text>
+          <text x="254" y="275" class="body" font-size="12" font-weight="800" fill="#171915">FORMULA SERVICE</text><text x="254" y="292" class="display" font-size="12" font-style="italic" fill="#6E6B61">latexbot</text>
+          <path d="M221 301H649" stroke="#B9B1A2"/>
+        </g><g class="enter" style="animation-delay:225ms">
+          <rect x="689" y="61" width="4" height="36" fill="#00A7D1"/><text x="705" y="75" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">06</text>
+          <text x="738" y="75" class="body" font-size="12" font-weight="800" fill="#171915">PROFILE SITE</text><text x="738" y="92" class="display" font-size="12" font-style="italic" fill="#6E6B61">LeaningLearner</text>
+          <path d="M705 101H1133" stroke="#B9B1A2"/>
+        </g><g class="enter" style="animation-delay:270ms">
+          <rect x="689" y="111" width="4" height="36" fill="#00A7D1"/><text x="705" y="125" class="mono" font-size="8" letter-spacing="1.5" fill="#00A7D1">07</text>
+          <text x="738" y="125" class="body" font-size="12" font-weight="800" fill="#171915">NOTE PUBLISHING</text><text x="738" y="142" class="display" font-size="12" font-style="italic" fill="#6E6B61">publish-exam-study-notes</text>
+          <path d="M705 151H1133" stroke="#B9B1A2"/>
         </g>
       <rect x="13" y="13" width="1174" height="304" filter="url(#grain)" opacity=".25" pointer-events="none"/>
     </svg>

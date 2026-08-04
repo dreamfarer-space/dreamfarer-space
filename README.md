@@ -4,7 +4,7 @@
   <img alt="择梦舟 editorial profile" src="assets/hero-light.svg" width="100%">
 </picture>
 
-![profile](https://img.shields.io/badge/profile-LeaningLearner-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-3-E84A8A?style=flat-square&labelColor=102934)
+![profile](https://img.shields.io/badge/profile-LeaningLearner-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-7-E84A8A?style=flat-square&labelColor=102934)
 
 Building public-data interfaces, formula services, and verified workflows for publishing study notes\. Open-source contributor to the fish2lab/DSCodex project\.
 
@@ -22,9 +22,9 @@ Building public-data interfaces, formula services, and verified workflows for pu
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
-| [`github-neofetch`](https://github.com/LeaningLearner/github-neofetch) ![stars](https://img.shields.io/github/stars/LeaningLearner/github-neofetch?style=flat-square&label=%E2%98%85) | PROFILE INTERFACE | A terminal-style view of public GitHub profiles, repository stats, and avatars\. |
+| [`codexbot`](https://github.com/LeaningLearner/codexbot) ![stars](https://img.shields.io/github/stars/LeaningLearner/codexbot?style=flat-square&label=%E2%98%85) | CODEX NOTIFICATIONS | CodexBot lifecycle notifications delivered through QQ\. |
 | [`latexbot`](https://github.com/LeaningLearner/latexbot) ![stars](https://img.shields.io/github/stars/LeaningLearner/latexbot?style=flat-square&label=%E2%98%85) | FORMULA RENDERING | An official QQ Bot service for validated LaTeX and MathJax image replies\. |
-| [`publish-exam-study-notes`](https://github.com/LeaningLearner/publish-exam-study-notes) ![stars](https://img.shields.io/github/stars/LeaningLearner/publish-exam-study-notes?style=flat-square&label=%E2%98%85) | KNOWLEDGE WORKFLOW | A Codex skill for faithful, verified, safe publication of Chinese exam notes\. |
+| [`DSCodex`](https://github.com/fish2lab/DSCodex) ![stars](https://img.shields.io/github/stars/fish2lab/DSCodex?style=flat-square&label=%E2%98%85) | CODEX INTEGRATION | DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex\. |
 
 ## Upstream PRs / 外部贡献
 

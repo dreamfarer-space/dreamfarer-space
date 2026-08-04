@@ -30,6 +30,18 @@ content_entries:
     url: https://zemengzhou.com/
     cta: 阅读博客
 layers:
+  - name: CODEX SWITCHER
+    project: codex-switcher
+    description: A desktop application for managing multiple OpenAI Codex CLI accounts.
+    tone: secondary
+  - name: CODEX BOT
+    project: codexbot
+    description: CodexBot lifecycle notifications delivered through QQ.
+    tone: primary
+  - name: DEEPSEEK CODEX
+    project: DSCodex
+    description: DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex.
+    tone: secondary
   - name: PROFILE DATA
     project: github-neofetch
     description: Public GitHub data rendered as terminal-style profile cards.
@@ -38,22 +50,29 @@ layers:
     project: latexbot
     description: QQ bot events, LaTeX validation, and MathJax image rendering.
     tone: secondary
+  - name: PROFILE SITE
+    project: LeaningLearner
+    description: Editorial GitHub profile and generated project index.
+    tone: primary
   - name: NOTE PUBLISHING
     project: publish-exam-study-notes
     description: Verified transcription and publishing workflow for Chinese exam notes.
     tone: primary
 flagships:
-  - repo: github-neofetch
-    role: PROFILE INTERFACE
-    description: A terminal-style view of public GitHub profiles, repository stats, and avatars.
+  - repo: codexbot
+    url: https://github.com/LeaningLearner/codexbot
+    role: CODEX NOTIFICATIONS
+    description: CodexBot lifecycle notifications delivered through QQ.
     tone: primary
   - repo: latexbot
+    url: https://github.com/LeaningLearner/latexbot
     role: FORMULA RENDERING
     description: An official QQ Bot service for validated LaTeX and MathJax image replies.
     tone: secondary
-  - repo: publish-exam-study-notes
-    role: KNOWLEDGE WORKFLOW
-    description: A Codex skill for faithful, verified, safe publication of Chinese exam notes.
+  - repo: DSCodex
+    url: https://github.com/fish2lab/DSCodex
+    role: CODEX INTEGRATION
+    description: DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex.
     tone: primary
 external_contributions:
   - owner: fish2lab
