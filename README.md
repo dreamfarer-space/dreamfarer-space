@@ -6,7 +6,7 @@
 
 ![profile](https://img.shields.io/badge/profile-LeaningLearner-00A7D1?style=flat-square&labelColor=102934) ![layers](https://img.shields.io/badge/layers-7-E84A8A?style=flat-square&labelColor=102934)
 
-Building public-data interfaces, formula services, and verified workflows for publishing study notes\. Open-source contributor to the fish2lab/DSCodex project\.
+Building public-data interfaces, formula services, and verified workflows for publishing study notes\.
 
 ## Collections / 内容入口
 
