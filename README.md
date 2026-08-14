@@ -30,12 +30,14 @@ Building public-data interfaces, formula services, and verified workflows for pu
 
 ### <a href="https://github.com/fish2lab/DSCodex">fish2lab/DSCodex</a> · Contributor
 
-DSCodex 由 fish2lab 创建；我以 Contributor 身份提交并合并了 Windows 非 ASCII 用户目录兼容修复，以及路由生命周期、凭据与代理处理的安全加固。
+DSCodex 由 fish2lab 创建；我以 Contributor 身份持续贡献 Windows 兼容性、路由生命周期、凭据与代理处理，以及 supervisor 与跨平台自动启动可靠性加固。
 
-| Merged PR | Change | Scope |
+| Pull Request | Change | Scope |
 | --- | --- | --- |
-| <a href="https://github.com/fish2lab/DSCodex/pull/5"><strong>#5</strong></a><br><sub>2026-08-03</sub> | security: harden router lifecycle, credentials, and proxy handling | +1,739 · −178 · 17 changed files |
-| <a href="https://github.com/fish2lab/DSCodex/pull/1"><strong>#1</strong></a><br><sub>2026-08-02</sub> | fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes | +35 · −2 · 2 changed files |
+| <a href="https://github.com/fish2lab/DSCodex/pull/20"><strong>#20</strong></a><br><sub>Open · 2026-08-14</sub> | fix: follow up on router autostart and supervisor lifecycle | +2,016 · −147 · 9 changed files |
+| <a href="https://github.com/fish2lab/DSCodex/pull/19"><strong>#19</strong></a><br><sub>Merged · 2026-08-14</sub> | 修复 Windows 路由器自动恢复与 Codex 模型目录兼容性 | +659 · −80 · 10 changed files |
+| <a href="https://github.com/fish2lab/DSCodex/pull/5"><strong>#5</strong></a><br><sub>Merged · 2026-08-03</sub> | security: harden router lifecycle, credentials, and proxy handling | +1,739 · −178 · 17 changed files |
+| <a href="https://github.com/fish2lab/DSCodex/pull/1"><strong>#1</strong></a><br><sub>Merged · 2026-08-02</sub> | fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes | +35 · −2 · 2 changed files |
 
 ## Contributions / 贡献轨迹
 

@@ -79,7 +79,7 @@ external_contributions:
     repo: DSCodex
     url: https://github.com/fish2lab/DSCodex
     role: Contributor
-    description: DSCodex 由 fish2lab 创建；我以 Contributor 身份提交并合并了 Windows 非 ASCII 用户目录兼容修复，以及路由生命周期、凭据与代理处理的安全加固。
+    description: DSCodex 由 fish2lab 创建；我以 Contributor 身份持续贡献 Windows 兼容性、路由生命周期、凭据与代理处理，以及 supervisor 与跨平台自动启动可靠性加固。
     pull_requests:
       - number: 1
         title: "fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes"
@@ -95,6 +95,22 @@ external_contributions:
         additions: 1739
         deletions: 178
         changed_files: 17
+      - number: 19
+        title: "修复 Windows 路由器自动恢复与 Codex 模型目录兼容性"
+        url: https://github.com/fish2lab/DSCodex/pull/19
+        merged_at: "2026-08-14T05:49:50Z"
+        additions: 659
+        deletions: 80
+        changed_files: 10
+      - number: 20
+        title: "fix: follow up on router autostart and supervisor lifecycle"
+        url: https://github.com/fish2lab/DSCodex/pull/20
+        state: open
+        created_at: "2026-08-14T06:47:26Z"
+        merged_at: null
+        additions: 2016
+        deletions: 147
+        changed_files: 9
 contribution_graph:
   provider: ghchart-and-activity-graph
   days: 31
