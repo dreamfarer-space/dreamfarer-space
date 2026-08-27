@@ -22,7 +22,7 @@ Building public-data interfaces, formula services, and verified workflows for pu
 
 | Repository | Role | Purpose |
 | --- | --- | --- |
-| [`codexbot`](https://github.com/LeaningLearner/codexbot) ![stars](https://img.shields.io/github/stars/LeaningLearner/codexbot?style=flat-square&label=%E2%98%85) | CODEX NOTIFICATIONS | CodexBot lifecycle notifications delivered through QQ\. |
+| [`obsidian-charter-pipeline`](https://github.com/LeaningLearner/obsidian-charter-pipeline) ![stars](https://img.shields.io/github/stars/LeaningLearner/obsidian-charter-pipeline?style=flat-square&label=%E2%98%85) | OBSIDIAN NAVIGATION | Minimalist Linear-style floating dash stepper and outline navigation for Obsidian\. |
 | [`latexbot`](https://github.com/LeaningLearner/latexbot) ![stars](https://img.shields.io/github/stars/LeaningLearner/latexbot?style=flat-square&label=%E2%98%85) | FORMULA RENDERING | An official QQ Bot service for validated LaTeX and MathJax image replies\. |
 | [`DSCodex`](https://github.com/fish2lab/DSCodex) ![stars](https://img.shields.io/github/stars/fish2lab/DSCodex?style=flat-square&label=%E2%98%85) | CODEX INTEGRATION | DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex\. |
 
