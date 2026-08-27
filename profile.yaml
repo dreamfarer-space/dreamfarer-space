@@ -34,9 +34,9 @@ layers:
     project: codex-switcher
     description: A desktop application for managing multiple OpenAI Codex CLI accounts.
     tone: secondary
-  - name: CODEX BOT
-    project: codexbot
-    description: CodexBot lifecycle notifications delivered through QQ.
+  - name: OBSIDIAN CHARTER PIPELINE
+    project: obsidian-charter-pipeline
+    description: Minimalist Linear-style outline navigation plugin for Obsidian.
     tone: primary
   - name: DEEPSEEK CODEX
     project: DSCodex
@@ -59,10 +59,10 @@ layers:
     description: Verified transcription and publishing workflow for Chinese exam notes.
     tone: primary
 flagships:
-  - repo: codexbot
-    url: https://github.com/LeaningLearner/codexbot
-    role: CODEX NOTIFICATIONS
-    description: CodexBot lifecycle notifications delivered through QQ.
+  - repo: obsidian-charter-pipeline
+    url: https://github.com/LeaningLearner/obsidian-charter-pipeline
+    role: OBSIDIAN NAVIGATION
+    description: Minimalist Linear-style floating dash stepper and outline navigation for Obsidian.
     tone: primary
   - repo: latexbot
     url: https://github.com/LeaningLearner/latexbot
