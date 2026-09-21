@@ -1,85 +1,105 @@
 version: 1
 github:
-  username: LeaningLearner
+  username: dreamfarer-space
 identity:
   name: 择梦舟
-  headline: SOFTWARE & KNOWLEDGE
-  tagline: Building public-data interfaces, formula services, and verified workflows for publishing study notes. Open-source contributor to the fish2lab/DSCodex project.
+  headline: AGENTS & KNOWLEDGE
+  tagline: Building agentic developer tools, verification workflows, and long-lived engineering knowledge systems. Contributing upstream across chat UX, model integrations, runtime reliability, and security.
 theme:
   preset: editorial
   primary: "#00A7D1"
   secondary: "#E84A8A"
 links:
   - label: GitHub
-    url: https://github.com/LeaningLearner
+    url: https://github.com/dreamfarer-space
   - label: 知乎
     url: https://www.zhihu.com/people/ze-meng-zhou-29
   - label: Blog
     url: https://zemengzhou.com/
 content_entries:
-  - label: 知乎 / Zhihu
-    description: 在理性、表达与审美之间往返：一个“披着文科生外衣、想当艺术生的理科生”，记录学习、技术与生活观察。
-    url: https://www.zhihu.com/people/ze-meng-zhou-29
-    cta: 前往知乎
-  - label: GitHub
-    description: 代码与工具的构建现场：公开数据界面、公式机器人、知识发布流程，以及对 DSCodex 的安全与 Windows 兼容性贡献。
-    url: https://github.com/LeaningLearner
+  - label: GitHub / Open Source
+    description: 自有项目与上游贡献的构建现场：Agent 工具、Obsidian 导航、聊天体验、运行时可靠性与安全加固。
+    url: https://github.com/dreamfarer-space
     cta: 查看代码
-  - label: 博客 / Blog
-    description: 工程、控制理论、机器视觉与数学的长期档案：把项目、研究笔记与可复用知识组织成可检索、可回访的系统。
+  - label: 博客 / Zemengzhou Space
+    description: 工程、控制理论、数学、AI 工具与长期学习笔记的个人知识系统。
     url: https://zemengzhou.com/
     cta: 阅读博客
+  - label: 知乎 / Zhihu
+    description: 在理性、表达与审美之间往返，记录数学、学习、技术与生活观察。
+    url: https://www.zhihu.com/people/ze-meng-zhou-29
+    cta: 前往知乎
 layers:
-  - name: CODEX SWITCHER
-    project: codex-switcher
-    description: A desktop application for managing multiple OpenAI Codex CLI accounts.
-    tone: secondary
-  - name: OBSIDIAN CHARTER PIPELINE
+  - name: DUAL-BRAIN AGENTS
+    project: antigravity-with-chatgpt
+    description: Zero-dependency reasoning and verification bridge between local coding agents and ChatGPT Web.
+    tone: primary
+  - name: OBSIDIAN NAVIGATION
     project: obsidian-charter-pipeline
-    description: Minimalist Linear-style outline navigation plugin for Obsidian.
+    description: Linear-style floating outline navigation for long technical notes with KaTeX previews.
+    tone: secondary
+  - name: MATH KNOWLEDGE
+    project: Introduction-to-the-Point-Setting-Method
+    description: A structured conic-geometry knowledge project around the point-setting method.
     tone: primary
-  - name: DEEPSEEK CODEX
+  - name: CHAT ROUTING
+    project: OpenMausBot#1607
+    description: Markdown- and punctuation-aware bot mention routing merged upstream.
+    tone: secondary
+  - name: MATH RENDERING
+    project: OpenMausBot#1608
+    description: KaTeX rendering for inline and display mathematics merged upstream.
+    tone: primary
+  - name: CODEX RUNTIME
     project: DSCodex
-    description: DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex.
+    description: Windows compatibility, credential protection, proxy handling, and router lifecycle hardening.
     tone: secondary
-  - name: PROFILE DATA
-    project: github-neofetch
-    description: Public GitHub data rendered as terminal-style profile cards.
-    tone: primary
-  - name: FORMULA SERVICE
-    project: latexbot
-    description: QQ bot events, LaTeX validation, and MathJax image rendering.
-    tone: secondary
-  - name: PROFILE SITE
-    project: LeaningLearner
-    description: Editorial GitHub profile and generated project index.
-    tone: primary
-  - name: NOTE PUBLISHING
-    project: publish-exam-study-notes
-    description: Verified transcription and publishing workflow for Chinese exam notes.
+  - name: ACCOUNT RUNTIME
+    project: codex-switcher
+    description: OAuth token rotation, concurrent account state, and runtime-safe account switching.
     tone: primary
 flagships:
-  - repo: obsidian-charter-pipeline
-    url: https://github.com/LeaningLearner/obsidian-charter-pipeline
-    role: OBSIDIAN NAVIGATION
-    description: Minimalist Linear-style floating dash stepper and outline navigation for Obsidian.
+  - repo: antigravity-with-chatgpt
+    url: https://github.com/dreamfarer-space/antigravity-with-chatgpt
+    role: DUAL-BRAIN AGENT TOOLING
+    description: Zero-dependency dual-brain reasoning and verification architecture for Antigravity, Gemini, Claude Code, and other local coding-agent workflows.
     tone: primary
-  - repo: latexbot
-    url: https://github.com/LeaningLearner/latexbot
-    role: FORMULA RENDERING
-    description: An official QQ Bot service for validated LaTeX and MathJax image replies.
+  - repo: obsidian-charter-pipeline
+    url: https://github.com/dreamfarer-space/obsidian-charter-pipeline
+    role: OBSIDIAN NAVIGATION
+    description: Minimalist Linear-style floating outline navigation for long Obsidian notes, with KaTeX previews, progress, bookmarks, and accessibility work.
     tone: secondary
-  - repo: DSCodex
-    url: https://github.com/fish2lab/DSCodex
-    role: CODEX INTEGRATION
-    description: DeepSeek V4 Flash integration for the ChatGPT desktop app and Codex.
+  - repo: Introduction-to-the-Point-Setting-Method
+    url: https://github.com/dreamfarer-space/Introduction-to-the-Point-Setting-Method
+    role: MATH KNOWLEDGE
+    description: A systematic introduction to the point-setting method for conic geometry, organized as a reusable open knowledge project.
     tone: primary
 external_contributions:
+  - owner: milind-soni
+    repo: OpenMausBot
+    url: https://github.com/milind-soni/OpenMausBot
+    role: Contributor
+    description: 2026-09-21 合并两项聊天核心改进：统一 bot mention 边界与路由行为，并加入 KaTeX 数学渲染和回归测试。
+    pull_requests:
+      - number: 1607
+        title: "fix(chat): make wrapped bot mentions trigger in channels"
+        url: https://github.com/milind-soni/OpenMausBot/pull/1607
+        merged_at: "2026-09-21T11:59:50Z"
+        additions: 100
+        deletions: 15
+        changed_files: 7
+      - number: 1608
+        title: "feat(chat): render LaTeX math with KaTeX"
+        url: https://github.com/milind-soni/OpenMausBot/pull/1608
+        merged_at: "2026-09-21T11:59:30Z"
+        additions: 271
+        deletions: 4
+        changed_files: 5
   - owner: fish2lab
     repo: DSCodex
     url: https://github.com/fish2lab/DSCodex
     role: Contributor
-    description: DSCodex 由 fish2lab 创建；我以 Contributor 身份持续贡献 Windows 兼容性、路由生命周期、凭据与代理处理，以及 supervisor 与跨平台自动启动可靠性加固。
+    description: 已合并 Windows 自启动、路由生命周期、凭据保护与代理处理等可靠性和安全性改进。
     pull_requests:
       - number: 1
         title: "fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes"
@@ -102,15 +122,20 @@ external_contributions:
         additions: 659
         deletions: 80
         changed_files: 10
-      - number: 20
-        title: "fix: follow up on router autostart and supervisor lifecycle"
-        url: https://github.com/fish2lab/DSCodex/pull/20
+  - owner: Lampese
+    repo: codex-switcher
+    url: https://github.com/Lampese/codex-switcher
+    role: Contributor
+    description: 正在贡献 Codex 多账号运行态、OAuth 刷新安全、重认证与中英文界面相关改进。
+    pull_requests:
+      - number: 122
+        title: "fix: protect token rotation and account runtime state"
+        url: https://github.com/Lampese/codex-switcher/pull/122
         state: open
-        created_at: "2026-08-14T06:47:26Z"
-        merged_at: null
-        additions: 2016
-        deletions: 147
-        changed_files: 9
+        created_at: "2026-08-03T12:13:06Z"
+        additions: 2552
+        deletions: 608
+        changed_files: 33
 contribution_graph:
   provider: ghchart-and-activity-graph
   days: 31
