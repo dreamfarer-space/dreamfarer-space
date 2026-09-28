@@ -2,7 +2,7 @@ version: 1
 github:
   username: dreamfarer-space
 identity:
-  name: 择梦舟
+  name: Dreamfarer
   headline: AGENTS & KNOWLEDGE
   tagline: Building agentic developer tools, verification workflows, and long-lived engineering knowledge systems. Contributing upstream across chat UX, model integrations, runtime reliability, and security.
 theme:
@@ -12,23 +12,23 @@ theme:
 links:
   - label: GitHub
     url: https://github.com/dreamfarer-space
-  - label: 知乎
+  - label: Zhihu
     url: https://www.zhihu.com/people/ze-meng-zhou-29
   - label: Blog
     url: https://zemengzhou.com/
 content_entries:
   - label: GitHub / Open Source
-    description: 自有项目与上游贡献的构建现场：Agent 工具、Obsidian 导航、聊天体验、运行时可靠性与安全加固。
+    description: Open-source systems, developer tooling, agentic reasoning bridges, and upstream runtime hardening.
     url: https://github.com/dreamfarer-space
-    cta: 查看代码
-  - label: 博客 / Zemengzhou Space
-    description: 工程、控制理论、数学、AI 工具与长期学习笔记的个人知识系统。
+    cta: Explore Repositories
+  - label: Blog / Zemengzhou Space
+    description: Long-form technical archive spanning control theory, computer vision, mathematics, and agent architectures.
     url: https://zemengzhou.com/
-    cta: 阅读博客
-  - label: 知乎 / Zhihu
-    description: 在理性、表达与审美之间往返，记录数学、学习、技术与生活观察。
+    cta: Read Articles
+  - label: Zhihu / Technical Column
+    description: Reflections exploring mathematical foundations, engineering rigor, learning observations, and aesthetics.
     url: https://www.zhihu.com/people/ze-meng-zhou-29
-    cta: 前往知乎
+    cta: Visit Column
 layers:
   - name: DUAL-BRAIN AGENTS
     project: antigravity-with-chatgpt
@@ -54,10 +54,6 @@ layers:
     project: DSCodex
     description: Windows compatibility, credential protection, proxy handling, and router lifecycle hardening.
     tone: secondary
-  - name: ACCOUNT RUNTIME
-    project: codex-switcher
-    description: OAuth token rotation, concurrent account state, and runtime-safe account switching.
-    tone: primary
 flagships:
   - repo: antigravity-with-chatgpt
     url: https://github.com/dreamfarer-space/antigravity-with-chatgpt
@@ -79,7 +75,7 @@ external_contributions:
     repo: OpenMausBot
     url: https://github.com/milind-soni/OpenMausBot
     role: Contributor
-    description: 2026-09-21 合并两项聊天核心改进：统一 bot mention 边界与路由行为，并加入 KaTeX 数学渲染和回归测试。
+    description: Merged core chat enhancements: unified bot mention routing boundaries and integrated KaTeX math rendering with regression tests.
     pull_requests:
       - number: 1607
         title: "fix(chat): make wrapped bot mentions trigger in channels"
@@ -99,7 +95,7 @@ external_contributions:
     repo: DSCodex
     url: https://github.com/fish2lab/DSCodex
     role: Contributor
-    description: 已合并 Windows 自启动、路由生命周期、凭据保护与代理处理等可靠性和安全性改进。
+    description: Merged reliability and security hardening across Windows compatibility, router lifecycle, credential protection, and proxy management.
     pull_requests:
       - number: 1
         title: "fix: use %USERPROFILE% in Windows autostart VBS for non-ASCII homes"
@@ -122,23 +118,6 @@ external_contributions:
         additions: 659
         deletions: 80
         changed_files: 10
-  - owner: Lampese
-    repo: codex-switcher
-    url: https://github.com/Lampese/codex-switcher
-    role: Contributor
-    description: 正在贡献 Codex 多账号运行态、OAuth 刷新安全、重认证与中英文界面相关改进。
-    pull_requests:
-      - number: 122
-        title: "fix: protect token rotation and account runtime state"
-        url: https://github.com/Lampese/codex-switcher/pull/122
-        state: open
-        created_at: "2026-08-03T12:13:06Z"
-        additions: 2552
-        deletions: 608
-        changed_files: 33
-contribution_graph:
-  provider: ghchart-and-activity-graph
-  days: 31
 module_groups: []
 settings:
   show_stars: true
