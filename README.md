@@ -1,10 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="Dreamfarer editorial profile" src="assets/hero-light.svg" width="100%">
-</picture>
+<img src="assets/banner.png" alt="Zemengzhou Space / Dreamfarer" width="100%">
 
-![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-2%20merged-40C463?style=flat-square&labelColor=102934)
+![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-5%20merged-8250df?style=flat-square&labelColor=102934)
 
 Building agentic developer tools, verification workflows, and long-lived engineering knowledge systems.
 
@@ -41,17 +37,10 @@ Building agentic developer tools, verification workflows, and long-lived enginee
 
 ## Selected Work
 
-### Featured Projects
-
-| Repository | Domain | Highlights |
-| :--- | :--- | :--- |
-| [**`antigravity-with-chatgpt`**](https://github.com/dreamfarer-space/antigravity-with-chatgpt) | Dual-Brain Agent Tooling | Zero-dependency reasoning and verification architecture connecting local coding agents with ChatGPT Web. |
-| [**`obsidian-charter-pipeline`**](https://github.com/dreamfarer-space/obsidian-charter-pipeline) | Obsidian Navigation | Minimalist floating outline navigation for long technical notes in Obsidian, featuring KaTeX formula previews and progress tracking. |
-| [**`Introduction-to-the-Point-Setting-Method`**](https://github.com/dreamfarer-space/Introduction-to-the-Point-Setting-Method) | Mathematical Foundations | Systematic open treatise and derivation archive for the point-setting method in conic geometry. |
-
-### Upstream Contributions
-
-| Project | Role | Highlights |
-| :--- | :--- | :--- |
-| [**`milind-soni/OpenMausBot`**](https://github.com/milind-soni/OpenMausBot) | Contributor | Unified bot mention boundary parsing &amp; channel routing ([#1607](https://github.com/milind-soni/OpenMausBot/pull/1607)); integrated KaTeX math rendering engine with regression tests ([#1608](https://github.com/milind-soni/OpenMausBot/pull/1608)). |
-| [**`fish2lab/DSCodex`**](https://github.com/fish2lab/DSCodex) | Contributor | Security hardening for router lifecycle, credentials, and proxy handling ([#5](https://github.com/fish2lab/DSCodex/pull/5)); resolved Windows router auto-recovery ([#19](https://github.com/fish2lab/DSCodex/pull/19)) and `%USERPROFILE%` autostart pathing ([#1](https://github.com/fish2lab/DSCodex/pull/1)). |
+| Target Repository | Pull Request | Status | Impact &amp; Scope |
+| :--- | :--- | :---: | :--- |
+| [**`milind-soni/OpenMausBot`**](https://github.com/milind-soni/OpenMausBot) | [**#1607** &middot; Wrapped bot mentions routing](https://github.com/milind-soni/OpenMausBot/pull/1607) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square)<br><sub>Sep 2026</sub> | Fixed regex token boundary parsing for wrapped channel mentions |
+| [**`milind-soni/OpenMausBot`**](https://github.com/milind-soni/OpenMausBot) | [**#1608** &middot; LaTeX math with KaTeX](https://github.com/milind-soni/OpenMausBot/pull/1608) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square)<br><sub>Sep 2026</sub> | Integrated KaTeX math rendering engine with regression test suites |
+| [**`fish2lab/DSCodex`**](https://github.com/fish2lab/DSCodex) | [**#19** &middot; Windows router auto-recovery](https://github.com/fish2lab/DSCodex/pull/19) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square)<br><sub>Aug 2026</sub> | Stabilized router auto-recovery and model path compatibility |
+| [**`fish2lab/DSCodex`**](https://github.com/fish2lab/DSCodex) | [**#5** &middot; Router security &amp; proxy handling](https://github.com/fish2lab/DSCodex/pull/5) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square)<br><sub>Aug 2026</sub> | Hardened token lifecycles, credential storage, and proxy forwarding |
+| [**`fish2lab/DSCodex`**](https://github.com/fish2lab/DSCodex) | [**#1** &middot; Non-ASCII path resolution](https://github.com/fish2lab/DSCodex/pull/1) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square)<br><sub>Aug 2026</sub> | Resolved Windows autostart failure caused by Unicode home directories |

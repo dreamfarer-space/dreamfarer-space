@@ -29,47 +29,6 @@ content_entries:
     description: Reflections exploring mathematical foundations, engineering rigor, learning observations, and aesthetics.
     url: https://www.zhihu.com/people/ze-meng-zhou-29
     cta: Visit Column
-layers:
-  - name: DUAL-BRAIN AGENTS
-    project: antigravity-with-chatgpt
-    description: Zero-dependency reasoning and verification bridge between local coding agents and ChatGPT Web.
-    tone: primary
-  - name: OBSIDIAN NAVIGATION
-    project: obsidian-charter-pipeline
-    description: Linear-style floating outline navigation for long technical notes with KaTeX previews.
-    tone: secondary
-  - name: MATH KNOWLEDGE
-    project: Introduction-to-the-Point-Setting-Method
-    description: A structured conic-geometry knowledge project around the point-setting method.
-    tone: primary
-  - name: CHAT ROUTING
-    project: OpenMausBot#1607
-    description: Markdown- and punctuation-aware bot mention routing merged upstream.
-    tone: secondary
-  - name: MATH RENDERING
-    project: OpenMausBot#1608
-    description: KaTeX rendering for inline and display mathematics merged upstream.
-    tone: primary
-  - name: CODEX RUNTIME
-    project: DSCodex
-    description: Windows compatibility, credential protection, proxy handling, and router lifecycle hardening.
-    tone: secondary
-flagships:
-  - repo: antigravity-with-chatgpt
-    url: https://github.com/dreamfarer-space/antigravity-with-chatgpt
-    role: DUAL-BRAIN AGENT TOOLING
-    description: Zero-dependency dual-brain reasoning and verification architecture for Antigravity, Gemini, Claude Code, and other local coding-agent workflows.
-    tone: primary
-  - repo: obsidian-charter-pipeline
-    url: https://github.com/dreamfarer-space/obsidian-charter-pipeline
-    role: OBSIDIAN NAVIGATION
-    description: Minimalist Linear-style floating outline navigation for long Obsidian notes, with KaTeX previews, progress, bookmarks, and accessibility work.
-    tone: secondary
-  - repo: Introduction-to-the-Point-Setting-Method
-    url: https://github.com/dreamfarer-space/Introduction-to-the-Point-Setting-Method
-    role: MATH KNOWLEDGE
-    description: A systematic introduction to the point-setting method for conic geometry, organized as a reusable open knowledge project.
-    tone: primary
 external_contributions:
   - owner: milind-soni
     repo: OpenMausBot
