@@ -76,3 +76,17 @@ Building agentic developer tools, verification workflows, and long-lived enginee
 | [**#19** &middot; fix: Windows router auto-recovery &amp; Codex model paths](https://github.com/fish2lab/DSCodex/pull/19) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Stabilized background supervisor recovery and localized model paths | Aug 2026 |
 | [**#5** &middot; security: harden router lifecycle, credentials, and proxy handling](https://github.com/fish2lab/DSCodex/pull/5) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Hardened token lifecycles, credential storage, and proxy forwarding | Aug 2026 |
 | [**#1** &middot; fix: use `%USERPROFILE%` in Windows autostart VBS](https://github.com/fish2lab/DSCodex/pull/1) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Resolved Windows autostart failure caused by Unicode home directories | Aug 2026 |
+
+---
+
+## Additional Upstream Contributions
+
+### [**NousResearch / hermes-agent**](https://github.com/NousResearch/hermes-agent)
+
+[![Stars](https://img.shields.io/github/stars/NousResearch/hermes-agent?style=flat-square&logo=github&label=Stars&color=e3b341)](https://github.com/NousResearch/hermes-agent/stargazers) &nbsp; [![Forks](https://img.shields.io/github/forks/NousResearch/hermes-agent?style=flat-square&label=Forks&color=58a6ff)](https://github.com/NousResearch/hermes-agent/network/members) &nbsp; ![Role](https://img.shields.io/badge/Role-Credited%20Contributor-00A7D1?style=flat-square)
+
+| Upstream Pull Request | Contribution | Date |
+| :--- | :--- | :---: |
+| [**#127983** &middot; Desktop bundle-skew probes no longer pile up git processes or survive quit](https://github.com/NousResearch/hermes-agent/pull/127983) | Incorporated the coalesced and cached bundle-skew checker from my [**#126186**](https://github.com/NousResearch/hermes-agent/pull/126186), preserving authorship. My original PR's Windows process-tree tests passed on Windows Server 2025 (50 passed, 1 skipped). | Sep 2026 |
+
+> **Attribution**: My original PR **#126186** was superseded rather than merged directly. Its code was incorporated into the merged **#127983**, whose description explicitly credits **@dreamfarer-space**. This contribution is listed separately and excluded from the merged-PR count above.
