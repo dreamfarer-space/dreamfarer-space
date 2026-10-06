@@ -95,3 +95,10 @@ Building agentic developer tools, verification workflows, and long-lived enginee
 | [**#127983** &middot; Desktop bundle-skew probes no longer pile up git processes or survive quit](https://github.com/NousResearch/hermes-agent/pull/127983) | Incorporated the coalesced and cached bundle-skew checker from my [**#126186**](https://github.com/NousResearch/hermes-agent/pull/126186), preserving authorship. My original PR's Windows process-tree tests passed on Windows Server 2025 (50 passed, 1 skipped). | Sep 2026 |
 
 > **Attribution**: My original PR **#126186** was superseded rather than merged directly. Its code was incorporated into the merged **#127983**, whose description explicitly credits **@dreamfarer-space**. This contribution is listed separately and excluded from the merged-PR count above.
+
+#### Active upstream work
+
+| Pull Request | Status | Scope | Date |
+| :--- | :---: | :--- | :---: |
+| [**#132052** &middot; fix(desktop): show readable artifact filenames without changing links](https://github.com/NousResearch/hermes-agent/pull/132052) | ![Open](https://img.shields.io/badge/Open-238636?style=flat-square) | Normalizes readable artifact/media filenames across Chinese, URL-encoded and Windows path cases while preserving original links and save paths | Oct 2026 |
+| [**#125227** &middot; fix(install): preserve Unicode bootstrap Python paths on Windows](https://github.com/NousResearch/hermes-agent/pull/125227) | ![Open](https://img.shields.io/badge/Open-238636?style=flat-square) | Preserves non-ASCII bootstrap Python paths across PowerShell and uv installer flows on supported Windows setups | Sep 2026 |
