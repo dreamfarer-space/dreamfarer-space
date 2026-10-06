@@ -1,6 +1,6 @@
 <img src="assets/banner.png" alt="Zemengzhou Space / Dreamfarer" width="100%">
 
-![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-9%20merged-8250df?style=flat-square&labelColor=102934)
+![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-14%20merged-8250df?style=flat-square&labelColor=102934)
 
 Building agentic developer tools, verification workflows, and long-lived engineering knowledge systems.
 
@@ -54,12 +54,17 @@ Building agentic developer tools, verification workflows, and long-lived enginee
 
 ### [**liguobao / ds-harness-remote**](https://github.com/liguobao/ds-harness-remote)
 
-[![Stars](https://img.shields.io/github/stars/liguobao/ds-harness-remote?style=flat-square&logo=github&label=Stars&color=e3b341)](https://github.com/liguobao/ds-harness-remote/stargazers) &nbsp; [![Forks](https://img.shields.io/github/forks/liguobao/ds-harness-remote?style=flat-square&label=Forks&color=58a6ff)](https://github.com/liguobao/ds-harness-remote/network/members) &nbsp; ![Role](https://img.shields.io/badge/Role-Contributor-00A7D1?style=flat-square) &nbsp; ![Status](https://img.shields.io/badge/Status-2%20Merged-8250df?style=flat-square)
+[![Stars](https://img.shields.io/github/stars/liguobao/ds-harness-remote?style=flat-square&logo=github&label=Stars&color=e3b341)](https://github.com/liguobao/ds-harness-remote/stargazers) &nbsp; [![Forks](https://img.shields.io/github/forks/liguobao/ds-harness-remote?style=flat-square&label=Forks&color=58a6ff)](https://github.com/liguobao/ds-harness-remote/network/members) &nbsp; ![Role](https://img.shields.io/badge/Role-Contributor-00A7D1?style=flat-square) &nbsp; ![Status](https://img.shields.io/badge/Status-7%20Merged-8250df?style=flat-square)
 
 > **Overview**: A multi-device remote access solution for DeepSeek Harness and CodeX across desktop, Android, and Web, with end-to-end encryption and P2P-first connectivity.
 
 | Merged Pull Request | Status | Impact &amp; Scope | Date |
 | :--- | :---: | :--- | :---: |
+| [**#94** &middot; fix(android): move quick prompts to the composer](https://github.com/liguobao/ds-harness-remote/pull/94) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Moved quick prompts to a direct composer entry while preserving prompt management, persistence, localization, drafts, and existing file/terminal/trajectory tools | Oct 2026 |
+| [**#91** &middot; feat(android): add new-chat navigation, trajectories, and prompt management](https://github.com/liguobao/ds-harness-remote/pull/91) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Added top-level new-chat controls, trajectory access, localized prompt management and persistence, plus guarded Android back-stack behavior | Oct 2026 |
+| [**#89** &middot; feat(android): add native mention/command menus, message actions, and trajectory mode](https://github.com/liguobao/ds-harness-remote/pull/89) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Added official-style @ and slash menus, message feedback/branching/usage actions, and a Host-backed trajectory inspection mode | Oct 2026 |
+| [**#87** &middot; fix: close live HTTP/WebSocket previews when ports are revoked](https://github.com/liguobao/ds-harness-remote/pull/87) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Actively terminates revoked preview connections and pending reads/handshakes while preserving allowed ports and safe handle reuse | Sep 2026 |
+| [**#86** &middot; fix: isolate loopback previews across client disconnects](https://github.com/liguobao/ds-harness-remote/pull/86) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Isolated loopback preview resources per authenticated connection so one client disconnect or reconnect no longer breaks other clients or requires a Host restart | Sep 2026 |
 | [**#83** &middot; feat(android): improve the chat composer and conversation actions](https://github.com/liguobao/ds-harness-remote/pull/83) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Added workspace and tool-access pickers, improved model and permission controls, and fixed session membership and image-prompt handling | Sep 2026 |
 | [**#84** &middot; fix(scripts): handle missing optional plugins during Windows uninstall](https://github.com/liguobao/ds-harness-remote/pull/84) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Made Windows uninstall remove only declared plugins so missing File Viewer dependencies no longer interrupt cleanup | Sep 2026 |
 
