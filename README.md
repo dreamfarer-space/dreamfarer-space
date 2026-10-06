@@ -1,6 +1,6 @@
 <img src="assets/banner.png" alt="Zemengzhou Space / Dreamfarer" width="100%">
 
-![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-14%20merged-8250df?style=flat-square&labelColor=102934)
+![profile](https://img.shields.io/badge/profile-dreamfarer--space-00A7D1?style=flat-square&labelColor=102934) ![focus](https://img.shields.io/badge/focus-agents%20%26%20knowledge-E84A8A?style=flat-square&labelColor=102934) ![upstream](https://img.shields.io/badge/upstream-15%20merged-8250df?style=flat-square&labelColor=102934)
 
 Building agentic developer tools, verification workflows, and long-lived engineering knowledge systems.
 
@@ -39,12 +39,13 @@ Building agentic developer tools, verification workflows, and long-lived enginee
 
 ### [**milind-soni / OpenMausBot**](https://github.com/milind-soni/OpenMausBot)
 
-[![Stars](https://img.shields.io/github/stars/milind-soni/OpenMausBot?style=flat-square&logo=github&label=Stars&color=e3b341)](https://github.com/milind-soni/OpenMausBot/stargazers) &nbsp; [![Forks](https://img.shields.io/github/forks/milind-soni/OpenMausBot?style=flat-square&label=Forks&color=58a6ff)](https://github.com/milind-soni/OpenMausBot/network/members) &nbsp; ![Role](https://img.shields.io/badge/Role-Contributor-00A7D1?style=flat-square) &nbsp; ![Status](https://img.shields.io/badge/Status-4%20Merged-8250df?style=flat-square)
+[![Stars](https://img.shields.io/github/stars/milind-soni/OpenMausBot?style=flat-square&logo=github&label=Stars&color=e3b341)](https://github.com/milind-soni/OpenMausBot/stargazers) &nbsp; [![Forks](https://img.shields.io/github/forks/milind-soni/OpenMausBot?style=flat-square&label=Forks&color=58a6ff)](https://github.com/milind-soni/OpenMausBot/network/members) &nbsp; ![Role](https://img.shields.io/badge/Role-Contributor-00A7D1?style=flat-square) &nbsp; ![Status](https://img.shields.io/badge/Status-5%20Merged-8250df?style=flat-square)
 
 > **Overview**: An open-source alternative to Grok Bot featuring an isolated virtual machine execution environment for conversational bots.
 
 | Merged Pull Request | Status | Impact &amp; Scope | Date |
 | :--- | :---: | :--- | :---: |
+| [**#1719** &middot; Add Simplified and Traditional Chinese localization to desktop and mobile](https://github.com/milind-soni/OpenMausBot/pull/1719) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Added complete Simplified and Traditional Chinese localization across desktop, Android, and iOS, including locale routing, resource coverage checks, and mobile regression tests | Oct 2026 |
 | [**#2025** &middot; feat(claude): offer Claude Sonnet 5.5 in the Claude engine](https://github.com/milind-soni/OpenMausBot/pull/2025) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Added Claude Sonnet 5.5 to the model catalog with context-window detection and regression coverage | Sep 2026 |
 | [**#1959** &middot; fix(chat): align KaTeX version and cover adjacent inline code](https://github.com/milind-soni/OpenMausBot/pull/1959) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Deduplicated KaTeX dependencies and added regression coverage for adjacent inline code spans | Sep 2026 |
 | [**#1607** &middot; fix(chat): make wrapped bot mentions trigger in channels](https://github.com/milind-soni/OpenMausBot/pull/1607) | ![Merged](https://img.shields.io/badge/Merged-8250df?style=flat-square) | Fixed regex token boundary parsing for wrapped channel mentions | Sep 2026 |
