@@ -43,12 +43,19 @@ When I'm away from coursework and the workbench, you'll probably find me running
 
 ## 🛠️ Building
 
+#### Agent & AI Systems
 - **[deepseek-harness-intelligent-ui](https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui)** [![GitHub stars](https://img.shields.io/github/stars/dreamfarer-space/deepseek-harness-intelligent-ui?style=flat&color=gold)](https://github.com/dreamfarer-space/deepseek-harness-intelligent-ui) - Generative interactive streaming UI, telemetry charts, and sandboxed live widgets for DeepSeek Harness.
-- **[magpie-dash](https://github.com/dreamfarer-space/magpie-dash)** [![GitHub stars](https://img.shields.io/github/stars/dreamfarer-space/magpie-dash?style=flat&color=gold)](https://github.com/dreamfarer-space/magpie-dash) - 480×272 touch telemetry dashboard for Magpie LLM gateway on ESP32-S3 + LVGL 8, supporting high-throughput USB-serial frame protocols and bilingual interfaces.
-- **[rail_measure_site](https://github.com/dreamfarer-space/rail_measure_site)** [![GitHub stars](https://img.shields.io/github/stars/dreamfarer-space/rail_measure_site?style=flat&color=gold)](https://github.com/dreamfarer-space/rail_measure_site) - Public platform and visualization service for elevator guide rail verticality measurement and OAK-D spatial depth perception.
-- **[obsidian-mermaid-boost](https://github.com/dreamfarer-space/obsidian-mermaid-boost)** [![GitHub stars](https://img.shields.io/github/stars/dreamfarer-space/obsidian-mermaid-boost?style=flat&color=gold)](https://github.com/dreamfarer-space/obsidian-mermaid-boost) - Smart compact sizing, 5 architectural design themes (Claude, Notion, Excalidraw, Swiss Monochrome, Custom), and 3x HD PNG export for Obsidian Mermaid diagrams.
-- **[obsidian-chapter-pipeline](https://github.com/dreamfarer-space/obsidian-chapter-pipeline)** [![GitHub stars](https://img.shields.io/github/stars/dreamfarer-space/obsidian-chapter-pipeline?style=flat&color=gold)](https://github.com/dreamfarer-space/obsidian-chapter-pipeline) - Minimalist Linear-style floating dash stepper with real-time KaTeX formula preview and tactile audio feedback.
-- **[Zemengzhou Space](https://zemengzhou.com/)** - Engineering archive and digital garden focusing on modern control theory, robotics dynamics, computer vision, and agent system architectures.
+
+#### Embedded & Hardware
+- **[magpie-dash](https://github.com/dreamfarer-space/magpie-dash)** [![Hardware](https://img.shields.io/badge/Hardware-ESP32--S3-orange?style=flat&logo=espressif)](https://github.com/dreamfarer-space/magpie-dash) - 480×272 touch telemetry dashboard for Magpie LLM gateway on ESP32-S3 + LVGL 8, supporting high-throughput USB-serial frame protocols and bilingual interfaces.
+
+#### Obsidian Extensions
+- **[obsidian-mermaid-boost](https://github.com/dreamfarer-space/obsidian-mermaid-boost)** [![Downloads](https://img.shields.io/github/downloads/dreamfarer-space/obsidian-mermaid-boost/total?style=flat&color=blue)](https://github.com/dreamfarer-space/obsidian-mermaid-boost/releases) - Smart compact sizing, 5 architectural design themes (Claude, Notion, Excalidraw, Swiss Monochrome, Custom), and 3x HD PNG export for Obsidian Mermaid diagrams.
+- **[obsidian-chapter-pipeline](https://github.com/dreamfarer-space/obsidian-chapter-pipeline)** [![Downloads](https://img.shields.io/github/downloads/dreamfarer-space/obsidian-chapter-pipeline/total?style=flat&color=blue)](https://github.com/dreamfarer-space/obsidian-chapter-pipeline/releases) - Minimalist Linear-style floating dash stepper with real-time KaTeX formula preview and tactile audio feedback.
+
+#### Web Platforms & Sites
+- **[rail_measure_site](https://github.com/dreamfarer-space/rail_measure_site)** [![Website](https://img.shields.io/badge/Website-Live-2ea44f?style=flat&logo=googlechrome)](https://dreamfarer-space.github.io/rail_measure_site/) - Public platform and visualization service for elevator guide rail verticality measurement and OAK-D spatial depth perception.
+- **[Zemengzhou Space](https://zemengzhou.com/)** [![Website](https://img.shields.io/badge/Website-zemengzhou.com-00A7D1?style=flat&logo=safari)](https://zemengzhou.com/) - Personal digital garden & engineering notes covering control theory, robotics dynamics, computer vision, and agent system architectures.
 
 ---
 
