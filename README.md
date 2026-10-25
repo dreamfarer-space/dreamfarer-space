@@ -1,4 +1,4 @@
-# Hi, I'm dreamfarer 👋
+# 👋Hi, I'm dreamfarer 
 
 > Bridging Embodied AI, Control Engineering, and Agent Systems.
 
